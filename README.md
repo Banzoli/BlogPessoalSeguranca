@@ -1,2 +1,2 @@
 # BlogPessoalSeguranca
-Blog made to evaluate my java programming skills, by Generation Brasil.
+Blog made to evaluate my java programming skills, for Generation Brasil.
