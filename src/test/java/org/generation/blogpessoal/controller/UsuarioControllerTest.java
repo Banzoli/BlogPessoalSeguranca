@@ -69,8 +69,8 @@ public class UsuarioControllerTest {
 	@DisplayName("Alterar Um Usuario")
 	public void deveAtualizarUmUsuario() {
 
-		Optional<Usuario> usuarioCreate = usuarioService
-				.cadastrarUsuario(new Usuario(0L, "Kaoque Lopes", "Koique56@gmail.com", "Ro123"));
+		Optional<Usuario> usuarioCreate = Optional.of(usuarioService
+				.cadastrarUsuario(new Usuario(0L, "Kaoque Lopes", "Koique56@gmail.com", "Ro123")));
 
 		Usuario usuarioUpdate = new Usuario(usuarioCreate.get().getId(), "Kaoque Lopes", "Koique56@gmail.com", "Ro123");
 
